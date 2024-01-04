@@ -1,0 +1,21 @@
+{
+  "name": "smbs",
+  "version": "1.0.0",
+  "description": "Smbs Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node esbuild.config.js",
+    "watch": "node esbuild.config.js --watch"
+  },
+  "author": "Anddy Espinoza",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.11",
+    "esbuild-sass-plugin": "^2.16.1",
+    "sass": "^1.69.6"
+  }
+}
